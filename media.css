@@ -1,0 +1,106 @@
+@media (max-width: 1200px) {
+  .wrapperContainerArea,
+  .aplyAIContainer,
+  .wrapperAbout,
+  .wrapperForfooterColumn {
+    width: 1180px;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapperContainerArea,
+  .aplyAIContainer,
+  .wrapperAbout,
+  .wrapperForfooterColumn {
+    width: 1018px;
+  }
+  .wrapperLogo {
+    width: 1000px;
+    gap: 10px;
+  }
+  h1 {
+    font-weight: 500;
+  }
+  .buttonHeroArea,
+  .buttonHeroAreaTriangle {
+    font-weight: 400px;
+    padding: 10px 15px;
+  }
+  .aplyAIContainer {
+    gap: 10px;
+  }
+  .AIHeader {
+    font-weight: 500;
+  }
+  .aplyAIText {
+    font-weight: 470;
+  }
+  .headerAboutText {
+    font-weight: 400;
+  }
+  .AIImage {
+    width: 600px;
+    height: 520px;
+  }
+  .aboutIMG {
+    width: 500px;
+    height: 420px;
+  }
+  .textWrapperAbout {
+    width: 500px;
+  }
+  .wrapperForfooterColumn {
+    gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .header_container {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    width: 765px;
+  }
+  /* .manAndRocet {
+    display: none;
+  } */
+  .wrapperContainerArea,
+  .aplyAIContainer,
+  .wrapperLogo,
+  .wrapperAbout,
+  .wrapperForfooterColumn {
+    width: 767px;
+  }
+  .wrapperContainerArea,
+  .wrapperAbout {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .wrapperLogo,
+  .aplyAIContainer,
+  .wrapperAbout {
+    flex-direction: column;
+  }
+  .wrapperTextButton {
+    margin-left: 100px;
+  }
+  .wrapperLogo {
+    width: 767px;
+  }
+  .aplyAIContainer {
+    align-items: center;
+  }
+  .aplyAIBoton {
+    margin-left: 150px;
+  }
+  .textWrapperAbout {
+    align-items: center;
+    align-self: center;
+  }
+  .wrapperForfooterColumn {
+    flex-direction: column;
+    height: auto;
+  }
+  .wrapperContainerArea {
+    flex-direction: column;
+  }
+}
