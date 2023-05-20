@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -59,36 +64,34 @@
 		</div>
 	 </section>
     <section class="feature">
-		<div class="wrapperFeature">
-			<div class="featureBox">
-				<img src="/images/welcome-3 1.png" alt=""class="cardImg">
-				<h5 class="featureHead">Naxly as the Winners in Global Agency Awards</h5>
-				<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-			</div>
-			<div class="featureBox"><img src="/images/welcome-3 1 (1).png" alt=""class="cardImg">
-				<h5 class="featureHead">Expert Prespective Agency Awards</h5>
-				<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-			</div>
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="/images/cycle.png" alt=""class="cardImg">
+						<h5 class="featureHead">Naxly as the Winners in Global Agency Awards</h5>
+						<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+					</div>
+					<div class="swiper-slide"><img src="/images/manAndCycle.png" alt=""class="cardImg">
+						<h5 class="featureHead">Expert Prespective Agency Awards</h5>
+						<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+					</div>
 			
-			<div class="featureBox"><img src="/images/welcome-3 1 (2).png" alt=""class="cardImg">
-				<h5 class="featureHead">Business Prespective Global Agency Awards</h5>
-				<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+					<div class="swiper-slide"><img src="/images/manRebildCycle.png" alt="" class="cardImg">
+						<h5 class="featureHead">Business Prespective Global Agency Awards</h5>
+						<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+					</div>
+					<div class="swiper-slide"><img src="/images/manSIT.png" alt=""class="cardImg">
+						<h5 class="featureHead">Value for Results in Global Agency Awards</h5>
+						<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+					</div>
+					<div class="swiper-slide">
+						<img src="/images/toStar.png" alt=""class="cardImg">
+						<h5 class="featureHead">Global Experience in Agency Awards</h5>
+						<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+					</div>	
+				</div>
+				<div class="swiper-pagination"></div>
 			</div>
-			<div class="featureBox"><img src="/images/welcome-3 1 (3).png" alt=""class="cardImg">
-				<h5 class="featureHead">Value for Results in Global Agency Awards</h5>
-				<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-			</div>
-			<div class="featureBox">
-				<img src="/images/welcome-3 1 (4).png" alt=""class="cardImg">
-				<h5 class="featureHead">Global Experience in Agency Awards</h5>
-				<p class="featureText">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-			</div>
-		</div>
-		<div class="wraperDot">
-			<div class="dot"></div>
-			<div class="dotActive"></div>
-			<div class="dot"></div>
-		</div>
 	</section>
     <section class="about">
 		<div class="wrapperAbout">
@@ -189,4 +192,5 @@
 			</div>
 	 	</footer>
   </body>
+  <script src="app.js"></script>
 </html>

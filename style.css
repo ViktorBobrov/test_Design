@@ -7,6 +7,8 @@ body {
   height: 1920px;
   margin: 0 auto;
 }
+
+/* header*/
 .header_container {
   height: 100px;
   background-color: rgb(11, 18, 31);
@@ -66,6 +68,7 @@ body {
   color: rgb(128, 132, 136);
   transition: 0.5s;
 }
+/*first slide -heroarea*/
 .HeroArea {
   background-color: #08101e;
 }
@@ -158,6 +161,7 @@ h1 {
   margin-top: 90px;
   padding-bottom: 90px;
 }
+/*third slide -- deep learning*/
 .aplyAIDeepLearning {
   background-color: #020a18;
 
@@ -218,35 +222,36 @@ h1 {
 .aplyAIBotom:hover {
   color: #b1aeae;
 }
+/*slider - feature*/
 .feature {
   background-color: #020a18;
+  font-size: 15px;
 }
-.wrapperFeature {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 30px;
-  background-color: #020a18;
-  height: 454px;
+.swiper {
+  width: 365px;
+  height: 400px;
 }
-.featureBox {
-  background: linear-gradient(
-    180deg,
-    rgba(2, 10, 24, 0.2) -41.9%,
-    #3b3f45 115.68%
-  );
-  opacity: 0.5;
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  width: 362px;
-  height: 389px;
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(64, 68, 72);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
-  gap: 40px;
+  border-radius: 15px;
 }
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 140px !important;
+  left: auto;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 140px !important;
+  right: auto;
+}
+
 .cardImg {
   margin-top: 30px;
   width: 98px;
@@ -290,7 +295,7 @@ h1 {
 .dotActive {
   background-color: #6b727f;
 }
-
+/*block #4 about*/
 .about {
   background-color: #020a18;
   height: 891px;
@@ -341,6 +346,8 @@ h1 {
   align-items: center;
   gap: 20px;
 }
+
+/* footer*/
 footer {
   display: flex;
   flex-direction: row;
